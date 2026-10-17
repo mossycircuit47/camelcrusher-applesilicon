@@ -1,0 +1,16 @@
+/build*/
+/dist/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.dSYM/
+/.agents/
+/.codex/
+/.aws/
+/.env
+/.env.*
+/analysis/
+/tests/
+/tools/
+/INSTALL.txt

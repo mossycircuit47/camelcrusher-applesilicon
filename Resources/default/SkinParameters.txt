@@ -1,0 +1,71 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Background
+OnButton
+ButtonRandom
+Knob
+SelectorPreset
+PhatButton
+FontSelector
+FontDisplay
+FontVersion
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+FontDisplay 
+75
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%'()*+,-./:?
+6 5 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 5 6 6 5 7 7 6 5 6 6 6 5 6 7 7 7 5 5 6 6 6 6 6 4 6 6 3 4 6 3 7 6 6 6 6 4 6 4 6 7 7 7 6 6 7 3 4 4 7 5 3 5 3 5 3 5
+
+FontVersion
+75
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%'()*+,-./:? 
+6 4 6 6 5 6 6 6 6 6 8 6 7 7 6 6 7 7 3 5 7 6 9 7 8 7 8 6 6 5 7 6 9 7 6 7 6 6 6 6 6 4 6 6 3 3 6 3 9 6 6 6 6 4 6 4 6 6 9 6 6 6 9 2 3 3 5 7 3 5 3 5 3 6 4
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+
+
+----------------------------------------------------------------------------------------------
+Pages - 
+ControlName	ControlType	Image		Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+
+----------------------------------------------------------------------------------------------
+Controls - 
+ControlName	ControlType	Image		Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+
+DistOn		OnButton	OnButton	Main	39	175
+DistMech	Knob		Knob		Main	123	214
+DistTube	Knob		Knob		Main	63	214
+
+MmFilterOn	OnButton	OnButton	Main	199	175
+MmFilterCutoff	Knob		Knob		Main	222	214
+MmFilterRes	Knob		Knob		Main	282	214
+
+CompressOn	OnButton	OnButton	Main	39	280
+CompressAmount	Knob		Knob		Main	63	319
+CompressMode	OnButton	PhatButton	Main	123	319
+
+MasterOn	OnButton	OnButton	Main	199	280
+MasterMix	Knob		Knob		Main	282	319
+MasterVolume	Knob		Knob		Main	222	319
+	
+Randomize	KickButton	ButtonRandom	Main	275	127
+
+PresetSelector	PresetSelector	SelectorPreset	Main	23	113	216	140
+
+VersionDisplay	VersionDisplay	FontSelector	Main	202	66	224	79
+
+InfoLink	WebLink		OnButton	Main	231	30	316	79
+
+--------------------------------------------------------------------------------------------
